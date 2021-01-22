@@ -6,6 +6,6 @@ import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 @Mod("first")
 public class First {
     public First(){
-        ItemRegistration.OBSBAR.register(FMLJavaModLoadingContext.get().getModEventBus());
+        ItemRegistration.ITEMEVEBT.register(FMLJavaModLoadingContext.get().getModEventBus());
     }
 }

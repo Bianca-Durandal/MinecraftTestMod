@@ -8,8 +8,8 @@ import top.duradnal.first.Items.ObsidianBar;
 import top.duradnal.first.food.CopperIngot;
 
 public class ItemRegistration {
-    public static final DeferredRegister<Item> OBSBAR = new DeferredRegister<>(ForgeRegistries.ITEMS, "first");
-    public static RegistryObject<Item> registryObsbar = OBSBAR.register("obsidian_bar", ObsidianBar::new);
+    public static final DeferredRegister<Item> ITEMEVEBT = new DeferredRegister<>(ForgeRegistries.ITEMS, "first");
 
-    public static RegistryObject<Item> registryCopper = OBSBAR.register("铜锭", CopperIngot::new);
+    public static RegistryObject<Item> registryObsbar = ITEMEVEBT.register("obsidian_bar", ObsidianBar::new);
+    public static RegistryObject<Item> registryCopper = ITEMEVEBT.register("copper_ingot", CopperIngot::new);
 }
