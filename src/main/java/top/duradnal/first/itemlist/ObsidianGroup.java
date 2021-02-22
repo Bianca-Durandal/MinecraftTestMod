@@ -5,7 +5,7 @@ import net.minecraft.item.ItemStack;
 import top.duradnal.first.ItemRegistration;
 
 public class ObsidianGroup extends ItemGroup {
-    public ObsidianGroup(){
+    public ObsidianGroup() {
         super("obsidian_group");
     }
 

@@ -9,6 +9,7 @@ import top.duradnal.first.arms.RainbowSword;
 import top.duradnal.first.food.CopperIngot;
 
 public class ItemRegistration {
+
     public static final DeferredRegister<Item> ITEMEVEBT = new DeferredRegister<>(ForgeRegistries.ITEMS, "first");
 
     public static RegistryObject<Item> registryObsbar = ITEMEVEBT.register("obsidian_bar", ObsidianBar::new);

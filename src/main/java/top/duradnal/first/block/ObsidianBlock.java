@@ -7,9 +7,9 @@ import net.minecraft.block.material.PushReaction;
 
 public class ObsidianBlock extends Block {
 
-    private static Material mine=new Material(MaterialColor.BLUE,false,true,true,true,true,false,false, PushReaction.NORMAL);
+    private static Material mine = new Material(MaterialColor.BLUE, false, true, true, true, true, false, false, PushReaction.NORMAL);
 
-    public ObsidianBlock(){
+    public ObsidianBlock() {
         super(Properties.create(mine).hardnessAndResistance(5));
     }
 }

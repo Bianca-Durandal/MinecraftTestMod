@@ -7,7 +7,7 @@ import net.minecraft.item.crafting.Ingredient;
 import top.duradnal.first.ItemRegistration;
 
 public class RainbowSword extends SwordItem {
-    private static IItemTier iItemTier=new IItemTier() {
+    private static IItemTier iItemTier = new IItemTier() {
         @Override
         public int getMaxUses() {
             return 2000;
