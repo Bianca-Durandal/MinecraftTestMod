@@ -7,5 +7,6 @@ import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 public class First {
     public First() {
         ItemRegistration.ITEMEVEBT.register(FMLJavaModLoadingContext.get().getModEventBus());
+        BlockRegistry.BLOCKEVENT.register(FMLJavaModLoadingContext.get().getModEventBus());
     }
 }

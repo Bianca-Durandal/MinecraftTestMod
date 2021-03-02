@@ -1,5 +1,6 @@
 package top.duradnal.first;
 
+import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraftforge.fml.RegistryObject;
 import net.minecraftforge.registries.DeferredRegister;
@@ -15,4 +16,8 @@ public class ItemRegistration {
     public static RegistryObject<Item> registryObsbar = ITEMEVEBT.register("obsidian_bar", ObsidianBar::new);
     public static RegistryObject<Item> registryCopper = ITEMEVEBT.register("copper_ingot", CopperIngot::new);
     public static RegistryObject<Item> registryRainbowSword = ITEMEVEBT.register("rainbow_sword", RainbowSword::new);
+
+    public static RegistryObject<Item> registryObsBlock =ITEMEVEBT.register("obsidian_block",()->{
+        return new BlockItem(BlockRegistry.ObsidianBlock.get(),new Item.Properties().group(ModGroup.obsidianGroup));
+    });
 }
