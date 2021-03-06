@@ -20,4 +20,7 @@ public class ItemRegistration {
     public static RegistryObject<Item> registryObsBlock =ITEMEVEBT.register("obsidian_block",()->{
         return new BlockItem(BlockRegistry.ObsidianBlock.get(),new Item.Properties().group(ModGroup.obsidianGroup));
     });
+    public static RegistryObject<Item>registryObsRubikCubeBlock =ITEMEVEBT.register("obs_rub_block",()->{
+        return new BlockItem(BlockRegistry.ObsidianRubikCubeBlock.get(),new Item.Properties().group(ModGroup.obsidianGroup));
+    });
 }
